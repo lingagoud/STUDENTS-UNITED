@@ -1,0 +1,88 @@
+
+<!DOCTYPE html><html>
+    <head>
+    <title>
+        STUDENT UNITED LOGIN</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        
+        <script>
+       
+        
+        
+        function moreinfoa(){
+            var x,y;
+            var x = document.getElementById("us");
+            var y = document.getElementById("ps");
+            if(x.value == "linga"){
+                if(y.value == "linga")
+                {
+           
+                window.location="tuhme.html";
+                    return false;
+                }
+            return false;}
+       else{
+           x.style.border="1px solid red";
+           y.style.border="1px solid red";
+           return false;
+       }
+    }
+        
+        
+        
+        
+        
+</script>
+</head>
+<body>
+
+
+   
+
+    <div class="container-fluid">
+    <div class="row">
+    
+        
+        
+        
+    <div class=" col-md-12 col-sm-4" style="background-color:">
+        
+        <h2 style="font-style:oblique; text-align:center; color:#29292c !important;font-family:georgia; text-shadow: 2px 1px steelblue;  padding: 5px 0px 5px 0px;
+                   background-color: ;">STUDENT UNITED</h2>
+        
+        
+        <div class="login" style="border-radius: 10px;border: 1px solid steelblue;">
+
+        <img src="SU.jpg" width="100px" height="100px" class="img-circle" style="  display: block;margin-left: auto; margin-right: auto;">
+           
+        <div class="container">                                                                      
+            
+        <form name="login" action="v.html" method="post" onsubmit="return moreinfoa()">
+            
+            <div class="form-group" >
+            <label for="user">username:</label>
+            <input type="text"  id="us" class="form-control" placeholder="Enter Username" style="border-left: px">
+                <label for="ps">password:</label>
+            <input type="password"  id="ps" class="form-control"placeholder="Enter password"><br>
+                <button type="submit"  class="btn btn-primary" style="width: 100%"> sign in</button>
+                       
+                       
+                
+            <p id="error"></p>
+            </div></form>
+            
+            
+            </div></div>
+    
+    </div>
+       
+       
+        
+        </div></div>
+
+    </body></html>
